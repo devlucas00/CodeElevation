@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeElevation</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/assets/logo.png" alt="Logo da CodeElevation"></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <section id="hero" data-aos="fade-up">
+                <img src="assets/img1.png" alt="Imagem de destaque">
+                <div class="hero-content">
+                    <h1>Transforme sua Carreira em Tech</h1>
+                    <p>Da primeira linha de código ao mercado de trabalho: mentoria personalizada para impulsionar suas habilidades e abrir portas na carreira tech.</p>
+                    <a href="#courses" class="cta-button">Agendar Mentoria</a>
+                </div>
+            </section>
+            <div class="services">
+                <section id="service" data-aos="fade-right">
+                    <h2>O que vamos te oferecer:</h2>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Mentorias personalizadas com profissionais experientes</li>
+                        <li><i class="fas fa-check-circle"></i> Revisão de Portfólio</li>
+                        <li><i class="fas fa-check-circle"></i> Preparação para Entrevistas</li>
+                        <li><i class="fas fa-check-circle"></i> Acesso a uma comunidade exclusiva de estudantes e mentores</li>
+                        <li><i class="fas fa-check-circle"></i> Projetos práticos para aplicar o que você aprende</li>
+                        <li><i class="fas fa-check-circle"></i> Suporte contínuo para garantir seu sucesso</li>
+                    </ul>
+
+                </section>
+                <section id="testimonials" data-aos="fade-right">
+                    <h2>Depoimentos de alunos</h2>
+                    <div class="testimonial">
+                        <img src="assets/img2.png" alt="Imagem do aluno 1">
+                        <p>Ana S. - Desenvolvedora Front-end na Empresa X</p>
+                        <p>"A mentoria da CodeElevation foi um divisor de águas na minha carreira. Consegui meu emprego dos sonhos!"</p>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img3.png" alt="Imagem do aluno 2">
+                        <p>Carlos M. - Engenheiro de Software Sênior</p>
+                        <p>"Os mentores são incríveis e realmente se importam com o sucesso dos alunos."</p>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img4.png" alt="Imagem do aluno 3">
+                        <p>Beatriz L. - Tech Lead</p>
+                        <p>"A comunidade é super acolhedora e me ajudou a crescer muito."</p>
+                    </div>
+                    
+                </section>
+                <section id="contact" data-aos="fade-right">
+                    <h2>Entre em contato conosco</h2>
+                    <form action="#" method="post">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <label for="service-options">Serviço de Interesse:</label>
+                        <select id="service-options" name="service" required>
+                            <option value="frontend">Front-end</option>
+                            <option value="backend">Back-end</option>
+                            <option value="fullstack">Full-stack</option>
+                            <option value="dados">Dados</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+                <div id="success-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn">&times;</span>
+                        <h2>Mensagem enviada!</h2>
+                        <p>Obrigado pelo contato! Retornaremos em breve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="socialmedia">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 CodeElevation. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
